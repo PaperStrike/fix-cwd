@@ -1,0 +1,32 @@
+{
+  "name": "fix-cwd",
+  "version": "0.0.0",
+  "description": "Fix the current working directory by resolving it to its OS-canonical path before running a command.",
+  "type": "module",
+  "bin": {
+    "fix-cwd": "bin/fix-cwd.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "keywords": [
+    "cwd",
+    "realpath",
+    "drive-letter",
+    "windows",
+    "cross-platform"
+  ],
+  "author": "PaperStrike",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperStrike/fix-cwd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PaperStrike/fix-cwd/issues"
+  },
+  "homepage": "https://github.com/PaperStrike/fix-cwd#readme"
+}
