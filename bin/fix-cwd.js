@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { spawn } from "node:child_process";
+import spawn from "cross-spawn";
 import { realpathSync } from "node:fs";
 
 const cwd = realpathSync.native(process.cwd());
